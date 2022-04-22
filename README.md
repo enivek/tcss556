@@ -5,6 +5,10 @@ Implementation for the paper entitled "[Session-based Recommendation with Self-A
 
 Github Repository: [https://github.com/GalaxyCruiser/SR-SAN](https://github.com/GalaxyCruiser/SR-SAN)
 
+## Dataset
+You can find the Yoochoose dataset here: 
+- [https://www.kaggle.com/datasets/chadgostopp/recsys-challenge-2015](https://www.kaggle.com/datasets/chadgostopp/recsys-challenge-2015)
+
 ## Usage
 Run the file  `datasets/preprocess.py` to preprocess the data before train the model.
 
@@ -20,3 +24,4 @@ optional arguments:
 ## Requirements
 - Python 3
 - PyTorch 1.2
+
