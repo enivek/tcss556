@@ -26,7 +26,7 @@ if opt.dataset =='yoochoose':
     print('YooChoose dataset selected')
 
 print("--Current directory: " + os. getcwd())
-print("-- Starting @ %ss" % datetime.datetime.now())
+print("--Starting @ %ss" % datetime.datetime.now())
 with open(dataset, "r") as f:
     if opt.dataset == 'yoochoose':
         reader = csv.DictReader(f, fieldnames=["session_id", "timestamp", "item_id", "category"], delimiter=',')
