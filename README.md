@@ -26,4 +26,12 @@ Github link: [https://github.com/enivek/tcss556](https://github.com/enivek/tcss5
 - pytorch (torch==1.11.0)
 - numpy (numpy==1.21)
 
+## Results
+Best Result (from local machine):
+- Recall@20:	71.4677	
+- MMR@20:	31.3229	
+- Epoch:	4,	10
 
+Best Result (from paper):
+- Recall@20: 71.74     
+- MRR@20: 31.58
